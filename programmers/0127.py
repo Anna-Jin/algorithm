@@ -30,3 +30,19 @@ arr = [3,2,6]
 divisor = 10
 print(solution2(arr, divisor))
 print("================================")
+
+# 수박수박수박수박수박수?
+def solution3(n):
+    a = '수'
+    b = '박'
+
+    answer = ''
+    for i in range(n):
+        if i % 2 == 0:
+            answer += a
+        else:
+            answer += b
+
+    return answer
+
+print(solution3(3))
