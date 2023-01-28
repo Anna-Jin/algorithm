@@ -8,8 +8,10 @@ def solution1(a, b):
     answer = week[c]
     return answer
 
+
 print(solution1(5, 24))
 print("================================")
+
 
 # 나누어 떨어지는 숫자 배열
 def solution2(arr, divisor):
@@ -26,10 +28,12 @@ def solution2(arr, divisor):
 
     return answer
 
-arr = [3,2,6]
+
+arr = [3, 2, 6]
 divisor = 10
 print(solution2(arr, divisor))
 print("================================")
+
 
 # 수박수박수박수박수박수?
 def solution3(n):
@@ -45,4 +49,6 @@ def solution3(n):
 
     return answer
 
+
 print(solution3(3))
+print("================================")
